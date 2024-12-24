@@ -96,7 +96,7 @@ public class CalculatorAppGUI {
                     if (input != 0) {
                         result /= input;
                     } else {
-                        display.setText("Error: Division by zero");
+                        display.setText("Error:- Division by zero(0)");
                         result = 0;
                     }
                     break;
